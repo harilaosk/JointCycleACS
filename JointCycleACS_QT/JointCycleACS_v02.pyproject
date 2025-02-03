@@ -1,0 +1,13 @@
+{
+    "files": [
+        "constants.js",
+        "Screen01.qml",
+        "main.py",
+        "main.qml",
+        "APRICOTlogo.svg",
+        "apricot_plainer.png",
+        "JointCycleACS_icon_v2.1.png",
+        "logo_rectangle.png",
+        "logo_rectangle2.png"
+    ]
+}
