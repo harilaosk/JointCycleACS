@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 14.0.2, 2025-02-03T22:09:55. -->
+<!-- Written by QtCreator 15.0.0, 2025-02-13T12:13:07. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{1d21e966-5d0f-45a3-86b1-0aac48ab369b}</value>
+  <value type="QByteArray">{b8f6bd3f-88be-4c47-9e66-826b56300dcf}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -33,6 +33,7 @@
    <value type="bool" key="EditorConfiguration.ConstrainTooltips">false</value>
    <value type="int" key="EditorConfiguration.IndentSize">4</value>
    <value type="bool" key="EditorConfiguration.KeyboardTooltips">false</value>
+   <value type="int" key="EditorConfiguration.LineEndingBehavior">0</value>
    <value type="int" key="EditorConfiguration.MarginColumn">80</value>
    <value type="bool" key="EditorConfiguration.MouseHiding">true</value>
    <value type="bool" key="EditorConfiguration.MouseNavigation">true</value>
@@ -78,7 +79,7 @@
     <value type="bool" key="ClangTools.AnalyzeOpenFiles">true</value>
     <value type="bool" key="ClangTools.BuildBeforeAnalysis">true</value>
     <value type="QString" key="ClangTools.DiagnosticConfig">Builtin.DefaultTidyAndClazy</value>
-    <value type="int" key="ClangTools.ParallelJobs">8</value>
+    <value type="int" key="ClangTools.ParallelJobs">6</value>
     <value type="bool" key="ClangTools.PreferConfigFile">true</value>
     <valuelist type="QVariantList" key="ClangTools.SelectedDirs"/>
     <valuelist type="QVariantList" key="ClangTools.SelectedFiles"/>
@@ -91,9 +92,9 @@
   <variable>ProjectExplorer.Project.Target.0</variable>
   <valuemap type="QVariantMap">
    <value type="QString" key="DeviceType">Desktop</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Python 3.9.18</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Python 3.9.18</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{6091fe26-6bfd-483d-b0d2-e84166fcd264}</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Python</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Python</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{8f24ff29-ef2f-49ab-98f7-23b3b0a07e0e}</value>
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
@@ -103,8 +104,8 @@
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Python.PysideBuildStep</value>
-      <value type="QString" key="Python.PySideProjectTool">C:\Users\Hari\AppData\Roaming\Python\Python39\Scripts\pyside6-project.exe</value>
-      <value type="QString" key="Python.PySideUic">C:\Users\Hari\AppData\Roaming\Python\Python39\Scripts\pyside6-uic.exe</value>
+      <value type="QString" key="Python.PySideProjectTool">C:\Users\Hari\AppData\Roaming\Python\Python312\Scripts\pyside6-project.exe</value>
+      <value type="QString" key="Python.PySideUic">C:\Users\Hari\AppData\Roaming\Python\Python312\Scripts\pyside6-uic.exe</value>
      </valuemap>
      <value type="qlonglong" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
@@ -122,7 +123,7 @@
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.CustomParsers"/>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ParseStandardOutput">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Python 3.9.18</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Python</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Python.PySideBuildConfiguration</value>
     <value type="QString" key="python">C:/Users/Hari/anaconda3/python.exe</value>
    </valuemap>
@@ -151,9 +152,9 @@
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">main.py</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.C:/Users/Hari/OneDrive - University of Southampton/Documents/Part4/FEEG6013/software/GIT/DS_wrapper/JointCycleACS/JointCycleACS_QT/main.py</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">PythonEditor.RunConfiguration.</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Hari/OneDrive - University of Southampton/Documents/Part4/FEEG6013/software/GIT/DS_wrapper/JointCycleACS/JointCycleACS_QT/main.py</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="QString" key="PythonEditor.RunConfiguation.Script">C:\Users\Hari\OneDrive - University of Southampton\Documents\Part4\FEEG6013\software\GIT\DS_wrapper\JointCycleACS\JointCycleACS_QT\main.py</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>

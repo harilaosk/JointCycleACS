@@ -1,5 +1,7 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Dialogs
+
 
 Item {
     id: root
@@ -53,4 +55,33 @@ Item {
         font.pointSize: root.height/4
 
     }
+    Image {
+            id: image
+            anchors.fill: parent
+            fillMode: Image.PreserveAspectFit
+        }
+    // FileDialog {
+    //         id: fileDialog
+    //         title: "Please choose a file"
+    //         folder: shortcuts.home
+    //         nameFilters: ["All files (*)", "Text files (*.txt)", "Images (*.png *.jpg)"]
+    //         onAccepted: {
+    //             console.log("You chose: " + fileDialog.fileUrls)
+    //         }
+    //         onRejected: {
+    //             console.log("Canceled")
+    //         }
+    //     }
+    FileDialog {
+            id: fileDialog
+            currentFolder: StandardPaths.standardLocations(StandardPaths.PicturesLocation)[0]
+            onAccepted: image.source = selectedFile
+    }
+
+        Button {
+            text: "Open File Picker"
+            anchors.centerIn: parent
+            onClicked: fileDialog.open()
+        }
+
 }

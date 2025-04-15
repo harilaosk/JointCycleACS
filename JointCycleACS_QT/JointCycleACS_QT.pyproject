@@ -5,9 +5,12 @@
         "main.py",
         "main.qml",
         "APRICOTlogo.svg",
-        "apricot_plainer.png",
-        "JointCycleACS_icon_v2.1.png",
-        "logo_rectangle.png",
-        "logo_rectangle2.png"
+	"About_pane.qml",
+	"Edit_pane.qml",
+	"Home_pane.qml",
+	"Manual_pane.qml",
+	"MySideNavBar.qml",
+	"Preview_pane.qml",
+	"Run_pane.qml"
     ]
 }

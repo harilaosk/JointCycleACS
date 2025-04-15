@@ -391,4 +391,11 @@ Rectangle {
             }
         }
     ]
+    // //<
+    //     // Include Manual_pane.qml
+    //         Manual_pane {
+    //             id: manualPane
+    //         }
+    // //>
+
 }

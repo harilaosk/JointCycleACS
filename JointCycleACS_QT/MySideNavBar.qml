@@ -33,6 +33,10 @@ Column {
                     ToolTip.visible: hovered
                     ToolTip.text: qsTr("go home")
                     checked: true
+                    // 4th Feb new bits
+                    onClicked: {
+                        console.log("Home Button Clicked!")
+                    }
                 }
 
                 TabButton {
