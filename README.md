@@ -1,3 +1,7 @@
+# SUPERCEEDED
+* The UI software was rewritten with Flask for enhanced user experiance and maintainability.
+* The repository for the new software can be found here: https://github.com/harilaosk/JCACS_flask
+
 # JointCycleACS
 *Joint Cycling Automated Control Software*
 
